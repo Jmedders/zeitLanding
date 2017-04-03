@@ -1,0 +1,37 @@
+$(document).ready(function() {
+  $('.who').hide()
+  $('.meet').hide()
+  $('.mission').hide()
+  $('.missionImg').hide()
+  $('.whoImg').hide()
+  $('#homeBtn').hide()
+
+  $('#homeBtn').click(function() {
+    $('.who').hide()
+    $('.meet').hide()
+    $('.mission').hide()
+    $('.home').show()
+  })
+  $('#missionBtn').click(function() {
+    $('.who').hide()
+    $('.meet').hide()
+    $('.home').hide()
+    $('.mission').show()
+    $('#homeBtn').show()
+  })
+  $('#whoBtn').click(function() {
+    $('.mission').hide()
+    $('.meet').hide()
+    $('.home').hide()
+    $('.who').show()
+    $('#homeBtn').show()
+  })
+  $('#teamBtn').click(function() {
+    $('.mission').hide()
+    $('.meet').show()
+    $('.home').hide()
+    $('.who').hide()
+    $('.homeImg').hide()
+    $('#homeBtn').show()
+  })
+})

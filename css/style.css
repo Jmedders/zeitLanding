@@ -1,0 +1,119 @@
+html, body {
+    height: 100%;
+    background-color: rgb(32, 32, 32);
+    font-family: 'Garamond', serif;
+}
+
+h6 {
+    color: #fff;
+}
+
+.logo {
+    font-size: 11vmin;
+    color: #fff;
+}
+
+.comingSoon {
+    color: #DAA520 !important;
+}
+
+.slogan {
+    font-size: 3vmin;
+    color: #fff;
+}
+
+.col-md-12, .col-sm-4 {
+    color: #fff;
+}
+
+.headline {
+    color: #DAA520;
+    font-size: 3vmin;
+}
+
+.name {
+    color: #fff;
+}
+
+.rotate {
+    color: #fff;
+}
+
+.role {
+    color:#DAA520;
+    font-size: 4vmin;
+}
+
+.hide {
+    display: none;
+}
+
+.col-md-12{
+  margin-top: 120px;
+}
+
+.meet {
+    width: 100%;
+}
+
+.homeImg {
+    background-image: url("http://i.imgur.com/4u34jIy.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+
+button {
+    background-color: #DAA520;
+    color: #fff;
+}
+
+#contentContainer {
+  display: flex;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#whoBtn, #missionBtn, #teamBtn {
+    height: 100px;
+    font-size: 3vmin;
+    width: 100px;
+    border: none;
+    border-radius: 50%;
+    margin: 20px;
+    transition: all 1s ease;
+}
+
+#homeBtn {
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    margin: 20px;
+    transition: all 1s ease;
+}
+
+#whoBtn:hover, #missionBtn:hover, #teamBtn:hover {
+    background-color: #fff;
+    color: #DAA520;
+}
+
+.updates {
+  font-size: 3vmin;
+}
+.wordContent{
+  font-size: 3vmin;
+  margin: 10px 10px;
+  text-align: justify;
+}
+.inputemail{
+  width: 100%;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
