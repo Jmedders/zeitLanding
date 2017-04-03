@@ -28,7 +28,7 @@ h6 {
 
 .headline {
     color: #DAA520;
-    font-size: 3vmin;
+    font-size: 5vmin;
 }
 
 .name {
@@ -81,7 +81,7 @@ button {
 }
 #whoBtn, #missionBtn, #teamBtn {
     height: 100px;
-    font-size: 3vmin;
+    font-size: 3.2vmin;
     width: 100px;
     border: none;
     border-radius: 50%;
@@ -90,8 +90,9 @@ button {
 }
 
 #homeBtn {
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
+    font-size: 3.4vmin;
     border: none;
     border-radius: 50%;
     margin: 20px;
@@ -104,12 +105,12 @@ button {
 }
 
 .updates {
-  font-size: 3vmin;
+  font-size: 3.25vmin;
 }
 .wordContent{
-  font-size: 3vmin;
+  font-size: 3.75vmin;
   margin: 10px 10px;
-  text-align: justify;
+  text-align: center;
 }
 .inputemail{
   width: 100%;
