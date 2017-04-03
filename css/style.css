@@ -12,7 +12,9 @@ h6 {
     font-size: 11vmin;
     color: #fff;
 }
-
+ol{
+  color: #fff;
+}
 .comingSoon {
     color: #DAA520 !important;
 }
@@ -20,6 +22,18 @@ h6 {
 .slogan {
     font-size: 3vmin;
     color: #fff;
+    text-align: justify;
+}
+.listSpan {
+  padding-left: 5px;
+}
+.listContainer {
+  display: flex;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .col-md-12, .col-sm-4 {
