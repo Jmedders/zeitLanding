@@ -1,43 +1,58 @@
 html, body {
     height: 100%;
-    background-color: rgb(32, 32, 32);
-    font-family: 'Garamond', serif;
+    background-color: rgb(8, 9, 11);
+    font-family: 'Menlo';
+    font-weight: 100;
+    background-image: url('http://img05.deviantart.net/1eba/i/2011/150/f/e/graphite_gradient_by_msketchley-d3hlq1x.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h6 {
     color: #fff;
 }
 
+#whoweare {
+    font-size: 14px;
+}
+
 .logo {
+    margin-top: 125px;
     font-size: 11vmin;
     color: #fff;
+    font-family: 'Cutive Mono', serif;
 }
-ol{
-  color: #fff;
+
+ol {
+    color: #fff;
 }
 
 .comingSoon {
-  color: #DAA520;
+    color: #DAA520;
 }
 
 .slogan {
-  font-size: 3vmin;
-  color: #fff;
-  text-align: justify;
+    font-size: 3vmin;
+    color: #fff;
+    letter-spacing: 5px;
+    /*text-align: justify;*/
 }
+
 .slogan:hover {
-  color: #DAA520
+    color: #DAA520
 }
+
 .listSpan {
-  padding-left: 5px;
+    padding-left: 5px;
 }
+
 .listContainer {
-  display: flex;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .col-md-12, .col-sm-4 {
@@ -58,7 +73,7 @@ ol{
 }
 
 .role {
-    color:#DAA520;
+    color: #DAA520;
     font-size: 4vmin;
 }
 
@@ -66,8 +81,8 @@ ol{
     display: none;
 }
 
-.col-md-12{
-  margin-top: 120px;
+.col-md-12 {
+    margin-top: 120px;
 }
 
 .meet {
@@ -87,20 +102,32 @@ ol{
 button {
     background-color: #DAA520;
     color: #fff;
+    font-size: 20px;
+
+}
+
+#btnRows {
+    margin-top: 70px;
+}
+
+#mailchimp {
+    margin-top: 50px;
 }
 
 #contentContainer {
-  display: flex;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-#whoBtn, #missionBtn, #teamBtn {
-    height: 100px;
-    font-size: 3.2vmin;
-    width: 100px;
+
+#whoBtn, #missionBtn, #teamBtn, #formBtn {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20 0px;
+    width: 250px;
     border: none;
     border-radius: 50%;
     margin: 20px;
@@ -117,22 +144,98 @@ button {
     transition: all 1s ease;
 }
 
-#whoBtn:hover, #missionBtn:hover, #teamBtn:hover {
+
+/*#whoBtn:hover, #missionBtn:hover, #teamBtn:hover , #mc-embedded-subscribe:hover, #formBtn:hover{
     background-color: #fff;
     color: #DAA520;
-}
+}*/
 
 .updates {
-  font-size: 3.25vmin;
+    font-size: 3.25vmin;
 }
-.wordContent{
-  font-size: 3.75vmin;
-  margin: 10px 10px;
-  text-align: center;
-}
-.inputemail{
-  width: 100%;
-}
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
 
+.wordContent {
+    font-size: 3.75vmin;
+    margin: 10px 10px;
+    text-align: left;
+}
+
+.inputemail {
+    width: 100%;
+}
+
+#mc_embed_signup {
+    background: rgba(255, 255, 255, 0);
+    color: #fff;
+}
+
+input#mce-EMAIL.required.email {
+    margin: 10px 10px;
+    /*color: #fff;*/
+}
+
+input {
+    margin: 5px;
+    width: 370px;
+    color: #000;
+}
+
+#mc-embedded-subscribe {
+    color: #000;
+    background-color: rgba(218, 165, 32, 0.75);
+    border: none;
+    transition: all 1s ease;
+    font-size: 15px;
+}
+
+#formBtn {
+    margin-top: -300px;
+    background-color: rgba(15, 2, 28, 0);
+    font-size: 3vmin;
+}
+
+#teamBtn {
+    background-color: rgba(57, 48, 74, 0);
+    margin-top: 50px;
+    font-size: 3vmin;
+
+}
+
+#missionBtn {
+    background-color: rgba(33, 24, 50, 0);
+    font-size: 3vmin;
+
+}
+
+#whoBtn {
+    background-color: rgba(110, 13, 193, 0);
+    margin-top: 200px;
+    font-size: 3vmin;
+
+}
+
+.logoMove {
+    float: right;
+    padding-right: 50px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  input{
+    width: 300px;
+  }
+  .logo{
+    margin-top: 10px;
+  }
+  .home{
+    text-align: center;
+  }
+  .logoMove{
+    float: none;
+    text-align: center;
+    margin-left: 30px;
+  }
+  #btnRows{
+    margin-top: -150px;
+    font-size: 45px;
+  }
 }
