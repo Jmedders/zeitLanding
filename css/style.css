@@ -4,12 +4,11 @@ html, body {
     font-family: 'Menlo';
     font-weight: 100;
     background-image: url('http://img05.deviantart.net/1eba/i/2011/150/f/e/graphite_gradient_by_msketchley-d3hlq1x.jpg');
+    /*background-image: url('http://i.imgur.com/Q36J3Qi.png');*/
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-h6 {
     color: #fff;
+
 }
 
 #whoweare {
@@ -123,6 +122,10 @@ button {
     flex-direction: column;
 }
 
+.mission{
+  margin-top: 100px;
+}
+
 #whoBtn, #missionBtn, #teamBtn, #formBtn {
     background-repeat: no-repeat;
     background-size: cover;
@@ -210,8 +213,8 @@ input {
 #whoBtn {
     background-color: rgba(110, 13, 193, 0);
     margin-top: 200px;
-    font-size: 3vmin;
-
+    font-size: 3.5vmin;
+    color: #DAA520;
 }
 
 .logoMove {
@@ -238,4 +241,50 @@ input {
     margin-top: -150px;
     font-size: 45px;
   }
+  #whoBtn, #missionBtn, #teamBtn, #formBtn {
+    font-size: 5vmin;
+  }
+}
+/*iphone 5*/
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #whoBtn, #missionBtn, #teamBtn, #formBtn {
+      font-size: 5vmin;
+    }
+}
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #whoBtn, #missionBtn, #teamBtn, #formBtn {
+      font-size: 5vmin;
+    }
+}
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    #whoBtn, #missionBtn, #teamBtn, #formBtn {
+      font-size: 5vmin;
+    }
+}
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #whoBtn, #missionBtn, #teamBtn, #formBtn {
+      margin-top: 100px;
+      font-size: 3.5vmin;
+    }
 }
