@@ -213,7 +213,7 @@ input {
 #whoBtn {
     background-color: rgba(110, 13, 193, 0);
     margin-top: 200px;
-    font-size: 3.5vmin;
+    font-size: 4vmin !important;
     color: #DAA520;
 }
 
@@ -241,7 +241,10 @@ input {
     margin-top: -150px;
     font-size: 45px;
   }
-  #whoBtn, #missionBtn, #teamBtn, #formBtn {
+  #whoBtn {
+    font-size: 5.3vmin;
+  }
+  #missionBtn, #teamBtn, #formBtn {
     font-size: 5vmin;
   }
 }
@@ -251,7 +254,10 @@ input {
   and (min-device-width: 320px)
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    #whoBtn, #missionBtn, #teamBtn, #formBtn {
+    #whoBtn {
+      font-size: 5.3vmin;
+    }
+    #missionBtn, #teamBtn, #formBtn {
       font-size: 5vmin;
     }
 }
@@ -262,8 +268,11 @@ input {
   and (min-device-width: 375px)
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    #whoBtn, #missionBtn, #teamBtn, #formBtn {
+    #missionBtn, #teamBtn, #formBtn {
       font-size: 5vmin;
+    }
+    #whoBtn {
+      font-size: 5.3vmin;
     }
 }
 /* ----------- iPhone 6+ ----------- */
@@ -273,8 +282,11 @@ input {
   and (min-device-width: 414px)
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3) {
-    #whoBtn, #missionBtn, #teamBtn, #formBtn {
+    #missionBtn, #teamBtn, #formBtn {
       font-size: 5vmin;
+    }
+    #whoBtn {
+      font-size: 5.3vmin;
     }
 }
 /* ----------- iPad 3 and 4 ----------- */
@@ -283,8 +295,12 @@ input {
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    #whoBtn, #missionBtn, #teamBtn, #formBtn {
+    #missionBtn, #teamBtn, #formBtn {
       margin-top: 100px;
       font-size: 3.5vmin;
+    }
+    #whoBtn {
+      margin-top: 100px;
+      font-size: 4vmin;
     }
 }
