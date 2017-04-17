@@ -14,7 +14,9 @@ html, body {
 #whoweare {
     font-size: 14px;
 }
-
+.editorstyle {
+  text-align: left !important;
+}
 .logo {
     margin-top: 125px;
     font-size: 11vmin;
@@ -162,7 +164,9 @@ button {
     margin: 10px 10px;
     text-align: left;
 }
-
+.fathomColors{
+  color: #DAA520;
+}
 .inputemail {
     width: 100%;
 }
