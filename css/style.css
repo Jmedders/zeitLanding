@@ -4,19 +4,23 @@ html, body {
     font-family: 'Menlo';
     font-weight: 100;
     background-image: url('http://img05.deviantart.net/1eba/i/2011/150/f/e/graphite_gradient_by_msketchley-d3hlq1x.jpg');
-    /*background-image: url('http://i.imgur.com/Q36J3Qi.png');*/
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
+}
 
+.fathomLogo {
+    font-size: 7.5vmin;
 }
 
 #whoweare {
     font-size: 14px;
 }
+
 .editorstyle {
-  text-align: left !important;
+    text-align: left !important;
 }
+
 .logo {
     margin-top: 125px;
     font-size: 11vmin;
@@ -104,7 +108,6 @@ button {
     background-color: #DAA520;
     color: #fff;
     font-size: 20px;
-
 }
 
 #btnRows {
@@ -124,8 +127,8 @@ button {
     flex-direction: column;
 }
 
-.mission{
-  margin-top: 100px;
+.mission {
+    margin-top: 100px;
 }
 
 #whoBtn, #missionBtn, #teamBtn, #formBtn {
@@ -149,12 +152,6 @@ button {
     transition: all 1s ease;
 }
 
-
-/*#whoBtn:hover, #missionBtn:hover, #teamBtn:hover , #mc-embedded-subscribe:hover, #formBtn:hover{
-    background-color: #fff;
-    color: #DAA520;
-}*/
-
 .updates {
     font-size: 3.25vmin;
 }
@@ -164,9 +161,11 @@ button {
     margin: 10px 10px;
     text-align: left;
 }
-.fathomColors{
-  color: #DAA520;
+
+.fathomColors {
+    color: #DAA520;
 }
+
 .inputemail {
     width: 100%;
 }
@@ -205,19 +204,17 @@ input {
     background-color: rgba(57, 48, 74, 0);
     margin-top: 50px;
     font-size: 3vmin;
-
 }
 
 #missionBtn {
     background-color: rgba(33, 24, 50, 0);
     font-size: 3vmin;
-
 }
 
 #whoBtn {
     background-color: rgba(110, 13, 193, 0);
     margin-top: 200px;
-    font-size: 4vmin !important;
+    font-size: 4.5vmin;
     color: #DAA520;
 }
 
@@ -227,84 +224,94 @@ input {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  input{
-    width: 300px;
-  }
-  .logo{
-    margin-top: 10px;
-  }
-  .home{
-    text-align: center;
-  }
-  .logoMove{
-    float: none;
-    text-align: center;
-    margin-left: 30px;
-  }
-  #btnRows{
-    margin-top: -150px;
-    font-size: 45px;
-  }
-  #whoBtn {
-    font-size: 5.3vmin;
-  }
-  #missionBtn, #teamBtn, #formBtn {
-    font-size: 5vmin;
-  }
-}
-/*iphone 5*/
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+    input {
+        width: 300px;
+    }
+    .logo {
+        margin-top: 10px;
+    }
+    .home {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .logoMove {
+        float: none;
+        text-align: center;
+        margin-left: 30px;
+    }
+    #btnRows {
+        margin-top: -150px;
+        font-size: 5vmin;
+    }
     #whoBtn {
-      font-size: 5.3vmin;
+        font-size: 50px;
     }
     #missionBtn, #teamBtn, #formBtn {
-      font-size: 5vmin;
+        font-size: 5vmin;
     }
 }
+
+
+/*iphone 5*/
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    #whoBtn {
+        font-size: 5.3vmin;
+    }
+    #missionBtn, #teamBtn, #formBtn {
+        font-size: 5vmin;
+    }
+}
+
+
 /* ----------- iPhone 6 ----------- */
 
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    #missionBtn, #teamBtn, #formBtn {
-      font-size: 5vmin;
-    }
-    #whoBtn {
-      font-size: 5.3vmin;
-    }
-}
-/* ----------- iPhone 6+ ----------- */
 
 /* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3) {
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
     #missionBtn, #teamBtn, #formBtn {
-      font-size: 5vmin;
+        font-size: 5vmin;
     }
     #whoBtn {
-      font-size: 5.3vmin;
+        font-size: 5.3vmin;
     }
 }
-/* ----------- iPad 3 and 4 ----------- */
+
+
+/* ----------- iPhone 6+ ----------- */
+
+
 /* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
     #missionBtn, #teamBtn, #formBtn {
-      margin-top: 100px;
-      font-size: 3.5vmin;
+        font-size: 5vmin;
     }
     #whoBtn {
-      margin-top: 100px;
-      font-size: 4vmin;
+        font-size: 5.3vmin;
+    }
+    .home {
+        margin-top: 60px;
+    }
+}
+
+
+/* ----------- iPad 3 and 4 ----------- */
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    #missionBtn, #teamBtn, #formBtn {
+        margin-top: 100px;
+        font-size: 3.5vmin;
+    }
+    #whoBtn {
+        margin-top: 100px;
+        font-size: 4vmin;
     }
 }
