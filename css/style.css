@@ -187,7 +187,7 @@ input {
 }
 
 #mc-embedded-subscribe {
-    color: #fff;
+    color: black;
     border: none;
     transition: all 1s ease;
     font-size: 15px;
