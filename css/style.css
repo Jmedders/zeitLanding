@@ -3,7 +3,7 @@ html, body {
     background-color: rgb(8, 9, 11);
     font-family: 'Menlo';
     font-weight: 100;
-    background-image: url('http://img05.deviantart.net/1eba/i/2011/150/f/e/graphite_gradient_by_msketchley-d3hlq1x.jpg');
+    /*background-image: url('http://img05.deviantart.net/1eba/i/2011/150/f/e/graphite_gradient_by_msketchley-d3hlq1x.jpg');*/
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
@@ -187,11 +187,11 @@ input {
 }
 
 #mc-embedded-subscribe {
-    color: #000;
-    background-color: rgba(218, 165, 32, 0.75);
+    color: #fff;
     border: none;
     transition: all 1s ease;
     font-size: 15px;
+    display: inline-block !important;
 }
 
 #formBtn {
@@ -314,4 +314,9 @@ input {
         margin-top: 100px;
         font-size: 4vmin;
     }
+}
+
+#mc_embed_signup form {
+    text-align: center !important;
+    padding: 10px 0 10px 0 !important;
 }
