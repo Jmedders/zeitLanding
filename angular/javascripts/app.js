@@ -23,4 +23,5 @@ app.config(function($routeProvider, $urlRouterProvider, $stateProvider, $httpPro
     url: '/signup',
     templateUrl: 'angular/partials/signup.html'
   })
+  $locationProvider.html5Mode(true);
 })
