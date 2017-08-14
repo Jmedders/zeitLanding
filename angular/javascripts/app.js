@@ -2,26 +2,22 @@ var app = angular.module('landingApp', ['ngRoute', 'ui.router']);
 
 app.config(function($routeProvider, $urlRouterProvider, $stateProvider, $httpProvider, $locationProvider){
   // $urlRouterProvider.otherwise('/');
-  $stateProvider
-  .state('landing', {
-    url: '/',
+  $routeProvider
+  .when('/', {
     templateUrl: 'angular/partials/home.html'
   })
-  .state('fathoms', {
-    url: '/fathoms',
+  .when('/fathoms', {
     templateUrl: 'angular/partials/fathoms.html'
   })
-  .state('about', {
-    url: '/about',
+  .when('/about', {
     templateUrl: 'angular/partials/about.html'
   })
-  .state('editors', {
-    url: '/editors',
+  .when('/editors', {
     templateUrl: 'angular/partials/editors.html'
   })
-  .state('signup', {
-    url: '/signup',
+  .when('/signup', {
     templateUrl: 'angular/partials/signup.html'
   })
-  $locationProvider.html5Mode(true);
+  .otherwise( { redirectTo: '/' } );
+  // $locationProvider.html5Mode(true);
 })
