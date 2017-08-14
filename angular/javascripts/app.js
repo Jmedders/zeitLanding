@@ -1,7 +1,7 @@
 var app = angular.module('landingApp', ['ngRoute', 'ui.router']);
 
 app.config(function($routeProvider, $urlRouterProvider, $stateProvider, $httpProvider, $locationProvider){
-  $urlRouterProvider.otherwise('/');
+  // $urlRouterProvider.otherwise('/');
   $stateProvider
   .state('landing', {
     url: '/',
@@ -23,5 +23,4 @@ app.config(function($routeProvider, $urlRouterProvider, $stateProvider, $httpPro
     url: '/signup',
     templateUrl: 'angular/partials/signup.html'
   })
-  $locationProvider.html5Mode(true);
 })
