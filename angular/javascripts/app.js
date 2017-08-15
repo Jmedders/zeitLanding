@@ -18,6 +18,9 @@ app.config(function($routeProvider, $urlRouterProvider, $stateProvider, $httpPro
   .when('/signup', {
     templateUrl: 'angular/partials/signup.html'
   })
+  .when('/call', {
+    templateUrl: 'angular/partials/call.html'
+  })
   .otherwise( { redirectTo: '/' } );
   // $locationProvider.html5Mode(true);
 })
