@@ -165,6 +165,9 @@ button {
 .fathomColors {
     color: #DAA520;
 }
+.seasonalColors {
+    color: mediumspringgreen;
+}
 
 .inputemail {
     width: 100%;
@@ -344,4 +347,17 @@ input {
   #teamBtn, #missionBtn {
     margin-top: 10px;
   }
+}
+.flexCenter {
+  display: flex;
+	justify-content: center;
+	align-items: center;
+  margin: 20px 20vw 0 20vw;
+	width: 60vw;
+	flex-direction: column;
+  text-align: left;
+	margin-top: 20px;
+}
+.increaseFont {
+  font-size: 1.2em;
 }
