@@ -353,14 +353,11 @@ input {
     border-radius: 50%;
     margin-top: -150px;
     padding-bottom: 30px;
-    font-size: 3vmin;
+    /*font-size: 3vmin;*/
     transition: all 1s ease;
     position: static;
   }
   #teamBtn, #missionBtn {
     margin-top: 10px;
-  }
-  .flexCenter {
-    text-align: justify;
   }
 }
