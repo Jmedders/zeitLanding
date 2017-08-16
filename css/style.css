@@ -330,6 +330,19 @@ input {
     text-align: center !important;
     padding: 10px 0 10px 0 !important;
 }
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20vw 0 20vw;
+  width: 60vw;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 20px;
+}
+.increaseFont {
+  font-size: 1.2em;
+}
 @media (max-width: 767px){
   #callBtn {
     background-repeat: no-repeat;
@@ -347,17 +360,7 @@ input {
   #teamBtn, #missionBtn {
     margin-top: 10px;
   }
-}
-.flexCenter {
-  display: flex;
-	justify-content: center;
-	align-items: center;
-  margin: 20px 20vw 0 20vw;
-	width: 60vw;
-	flex-direction: column;
-  text-align: left;
-	margin-top: 20px;
-}
-.increaseFont {
-  font-size: 1.2em;
+  .flexCenter {
+    text-align: justify;
+  }
 }
