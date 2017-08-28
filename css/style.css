@@ -163,10 +163,12 @@ button {
 }
 
 .fathomColors {
-    color: #DAA520;
+    color: maroon;
+    font-weight: bold;
 }
 .seasonalColors {
-    color: mediumspringgreen;
+    color: indigo;
+    font-weight: bold;
 }
 
 .inputemail {
