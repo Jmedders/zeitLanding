@@ -163,11 +163,19 @@ button {
 }
 
 .fathomColors {
-    color: maroon;
+    color: #DAA520;
     font-weight: bold;
 }
+.callFathomColors {
+  color: maroon;
+  font-weight: bold;
+}
 .seasonalColors {
-    color: indigo;
+    color: mediumspringgreen;
+    font-weight: bold;
+}
+.callSeasonalColors {
+    color: mediumspringgreen;
     font-weight: bold;
 }
 
