@@ -18,9 +18,9 @@ app.config(function($routeProvider, $urlRouterProvider, $stateProvider, $httpPro
   .when('/signup', {
     templateUrl: 'angular/partials/signup.html'
   })
-  .when('/call', {
-    templateUrl: 'angular/partials/call.html'
-  })
+  // .when('/call', {
+  //   templateUrl: 'angular/partials/call.html'
+  // })
   .when('/privacy', {
     templateUrl: 'angular/partials/privacy.html'
   })
