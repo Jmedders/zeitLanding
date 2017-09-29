@@ -390,10 +390,6 @@ input {
   }
 }
 
-.container {
-  width: 960px;
-}
-
 .container li > p  {
   margin: 10px;
   color: #000;
