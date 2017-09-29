@@ -21,6 +21,12 @@ app.config(function($routeProvider, $urlRouterProvider, $stateProvider, $httpPro
   .when('/call', {
     templateUrl: 'angular/partials/call.html'
   })
+  .when('/privacy', {
+    templateUrl: 'angular/partials/privacy.html'
+  })
+  .when('/terms', {
+    templateUrl: 'angular/partials/terms.html'
+  })
   .otherwise( { redirectTo: '/' } );
   // $locationProvider.html5Mode(true);
 })

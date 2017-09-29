@@ -29,7 +29,20 @@ html, body {
 }
 
 ol {
-    color: #fff;
+    color: #000;
+}
+
+ol {
+   counter-reset: item
+ }
+
+li {
+  display: block
+}
+
+li:before {
+  content: counters(item, ".") " ";
+  counter-increment: item
 }
 
 .comingSoon {
@@ -375,4 +388,13 @@ input {
   #teamBtn, #missionBtn {
     margin-top: 10px;
   }
+}
+
+.container {
+  width: 960px;
+}
+
+.container li > p  {
+  margin: 10px;
+  color: #000;
 }
